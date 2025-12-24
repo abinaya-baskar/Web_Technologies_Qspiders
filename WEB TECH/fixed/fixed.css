@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(240, 167, 72);
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+}
+section{
+    background-color: rgb(209, 121, 121);
+    height: 200px;
+    padding: 20px;
+    margin-top: 200px;
+}
+section > button{
+    position: fixed;
+}
+.sec2 > button{
+    position: sticky;
+    top:200px;
+}
+h1{
+    text-align: center;
+}
+.sec2{
+    height: 150px;
+    background-color: fuchsia;
+    padding: 10px;
+
+}
+.sec3{
+    background-color: rgb(221, 231, 80);
+    height: 150px;
+   
+ 
+}
+.sec4{
+    background-color: rgb(76, 219, 119);
+    height: 150px;
+}
+button{
+    background-color: rgb(132, 218, 169);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer{
+    height: 150px;
+    background-color: darkcyan;
+}

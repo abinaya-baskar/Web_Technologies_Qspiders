@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+   
+.d1 > .d2{
+    background-color: darkred;
+    height: 300px;
+    width: 300px;
+    transition:all 3s ease-in 1s;
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+}
+.d1 > .d2:hover{
+    border-radius: 50%;
+    background-color: rgb(79, 131, 228);
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width:100%;
+    background-color: rgb(89, 105, 100);
+
+}
+.outer > .inner{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    background-color: crimson;
+    box-shadow: 3px 3px 3px rgb(85, 67, 67);
+        /* transition: all 2s ease-in 1s; */
+
+
+}
+/* .outer > .inner:hover{
+    transform: translate(-300px,0);
+} */
+.inner > .card{
+    border-radius: 30px;
+    background-color:white;
+    box-shadow:  3px 3px 3px rgb(85, 67, 67);
+    height: 40%;
+    width: 30%;
+    transition: all 2s ease-in 1s;
+    
+}
+.inner > .card:hover{
+    background-color: yellowgreen;
+    /* transform: translate(0,-200px);
+    transform: translateX(400px); */
+    /* transform: translate(100px, -100px); */
+    /* transform: rotate(360deg); */
+    /* transform: scale(1.5); */
+    transform: scale(0.5);
+    transform: skew(180deg);
+    
+    
+}

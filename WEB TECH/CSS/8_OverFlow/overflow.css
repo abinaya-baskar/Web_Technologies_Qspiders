@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: rgb(240, 178, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .inner{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(170, 185, 145);
+    padding: 17px;
+    overflow:auto;
+
+}
+.inner > h2{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.inner > p{
+    font-size: 20px;
+    text-align: justify;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.inner > h3{
+    text-align: center;
+    display: none;
+}
+.inner > h4{
+    text-align: center;
+    visibility:collapse;
+}
+
+
+/* index.html */
+.outer{
+    display: flex;
+    gap:20px;
+    background-color: aquamarine;
+    overflow: auto;
+}
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    transition:all 0.2s ease-in;
+}

@@ -1,0 +1,138 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p-card{
+    background-color: rgb(80, 192, 136);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;  
+    left: 33%;
+    bottom: 80%;
+    border: 3px solid rgb(126, 119, 119);
+}
+
+.card{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(183, 228, 213);
+    border-radius: 20px;
+    
+}
+.div{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+}
+p
+{
+    font-size: 17px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    width:100px;
+    background-color: rgb(201, 6, 103);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+} */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  background-color: rgb(80, 192, 136);
+}
+
+.p-card{
+  
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+  border-radius: 20px;
+}
+
+.card{
+  height: 250px;
+  width: 300px;
+  background-color: rgb(183, 228, 213);
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 2px 2px 3px black;
+  transition: transform 1s ease-in  ;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+
+.div{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  width:100px;
+  background-color: rgb(201, 6, 103);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.div > h2{
+  animation: movingText 4s ease-in infinite;
+}
+@keyframes movingText {
+  0%{
+    transform: translateY(30px);
+    opacity:0;
+    
+  }
+  20%{
+    transform: translateY(0);
+    opacity:1;
+  }
+  80%{
+    transform: translateY(0);
+    opacity:1;
+  }
+  100%{
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+}

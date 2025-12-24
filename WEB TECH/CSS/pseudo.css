@@ -1,0 +1,93 @@
+.box1{
+    background-color: aquamarine;
+}
+.box1 > p{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.box1 > h2{
+    text-align: center;
+    text-transform: capitalize;
+    color:lightcoral;
+    letter-spacing: 3px;
+}
+.box1 > button{
+    background-color: darkcyan;
+    color: aliceblue;
+    cursor:pointer;
+    
+}
+.box1 > button:hover{
+    background-color:brown;
+    font-size: 18px;
+}
+.box1 > button:active{
+    background-color: lawngreen;
+    color: black;
+}
+.box1 > ol > li{
+    font-size: 24px;
+    font-weight: bold;
+    color:darkolivegreen;
+    letter-spacing: 3px;
+}
+.box1 > ol > li:nth-child(10){
+    color:midnightblue;
+}
+.box1 > ol > li:nth-child(2n){
+    background-color: rgb(152, 216, 32);
+}
+.box1 > ol > li:nth-child(2n+1){
+    background-color: rgb(197, 150, 93);
+    color:rgb(10, 61, 77) ;
+
+}
+.box1 > ol > li:hover{
+    background-color: maroon;
+    color: azure;
+    text-align: center;
+    
+}
+.box2 > p:nth-child(2){
+    background-color: blueviolet;
+}
+.box2 > h1:nth-child(4){
+    background-color: rgb(113, 216, 168);
+}
+.box3 > h1{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.box3 > p{
+    text-indent: 100px;
+}
+
+.box3 > p::first-letter{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color:palevioletred;
+}
+.box3 > h1::after{
+    content: " *#%@";
+    color :darkgoldenrod;
+}
+.box3 > h1::before{
+    content: "!$%* ";
+    color: darkgoldenrod;
+}
+.box3 > p::selection{
+    background-color: chartreuse;
+}
+.box3 > ul > li::marker{
+    color: blueviolet;
+}
+.box3 > ul > li:nth-child(2n)::marker{
+   color: brown;
+}
+form > input[type="text"]{
+    background-color: rgb(175, 224, 209);
+}

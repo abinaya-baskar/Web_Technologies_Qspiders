@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right top,rgb(19, 119, 114),skyblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner > .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+/*    RELATIVE 
+.outer > .inner{
+    background-color: green;
+    height: 500px;
+    width: 500px;
+}
+.inner > #box1{
+    background-color:rgb(221, 139, 31);
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+    top: 10px;   
+}
+.inner > #box2{
+    background-color: rgb(202, 211, 80);
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+
+}
+.inner > #box3{
+    background-color: rgb(187, 72, 172);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    
+}
+.inner > #box4{
+    background-color: rgb(216, 107, 107);
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+  
+    
+}
+.inner > #box5{
+    background-color:aqua ;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 180px;
+    bottom: 80px;
+}
+     ABSOLUTE -> POSITION ABSOLUTE WILL CHANGE THE POSITON BASED ON THE NEAREST ANCESTOR.
+*/
+ .outer > .inner{
+    background-color: rgb(12, 175, 12);
+    height: 600px;
+    width: 600px;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 30px;
+}
+.inner > #box1{
+    background-color:rgb(221, 139, 31);
+    height: 60px;
+    width: 60px;
+    position:absolute ;
+    bottom: 0;
+     
+}
+.inner > #box2{
+    background-color: rgb(202, 211, 80);
+    height: 70px;
+    width: 70px;
+    position:absolute ;
+    right:0;
+
+}
+.inner > #box3{
+    background-color: rgb(187, 72, 172);
+    height: 80px;
+    width: 80px;
+    position:absolute ;
+    right: 0;
+    bottom: 0;
+
+ 
+    
+}
+.inner > #box4{
+    background-color: rgb(216, 107, 107);
+    height: 90px;
+    width: 90px;
+  
+    
+}
+.inner > #box5{
+    background-color:aqua ;
+    height: 100px;
+    width: 100px;
+    position:absolute ;
+    right: 50%;
+    top:50%;
+    transform: translate(50%,-50%);
+ 
+}
+.outer1{
+    position: relative;
+}
+.drink{
+    position: absolute;
+    bottom: 10%;
+    
+}
+.dis{
+    position: absolute;
+    bottom: 1%;
+    animation: identifier 2s ease infinite ;
+}
+@keyframes identifier {
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+
+
+    }
+}
+ 

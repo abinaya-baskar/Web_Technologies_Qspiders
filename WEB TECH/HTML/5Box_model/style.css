@@ -1,0 +1,54 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.card1{
+    background-color: rgb(139, 203, 240);
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+    padding: 5px 8px;
+}
+.card2{
+    background-color: rgb(21, 221, 47);
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    margin-top: 10px;
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: rgb(161, 9, 98);
+    
+
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: chocolate;
+    border-radius:50%;
+
+}
+.card3{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(241, 140, 208);
+    border: 2px solid red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-top: 5px solid red;
+    border-bottom: 7px dotted rgb(88, 205, 252);
+    border-right: 5px dashed rgb(98, 0, 255);
+    border-left: 7px groove rgb(21, 218, 87);
+}
+.card4{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(154, 201, 154);
+    border: 2px solid orange;
+    margin-left: 20px;
+}

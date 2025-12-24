@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   7
+   background-image:url(./bg.jpg);
+   
+}
+h1{
+    font-size: 50px;
+    font-weight:bolder;
+}
+.p{
+    font-size: 50px;
+}
+.nav{
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > .nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    gap:10px;
+    margin-right: 20px;
+}
+.nav-right > select{
+    width: 90px;
+    padding:10px 20px;
+    
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.nav-right > .sign-in{
+    width: 90px;
+    color: white;
+    background-color: red;
+    padding:10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.mid > .mid-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.mid-btn > .get-s{
+    color: white;
+    background-color: red;
+    padding: 15px;
+     border-radius: 6px;
+    
+     font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+}
+.mid-btn > input{
+    background-color: black;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    width: 60%;
+}

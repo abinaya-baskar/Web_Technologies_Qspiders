@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card1{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    padding: 10px 5px;
+    padding-top: 7px;
+}
+.card2{
+    background-color: rgb(106, 201, 28);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
